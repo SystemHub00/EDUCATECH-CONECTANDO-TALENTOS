@@ -29,7 +29,7 @@ VALID_DDDS = {
 COURSE_OPTIONS = [
     {
         "id": "1",
-        "local": "BANGU",
+        "local": "QUALIFICA BANGU - BANGU",
         "curso": "PORTEIRO",
         "turma": "TURMA PORTEIRO 01",
         "dias_aula": "Segunda, Terça, Quinta",
@@ -40,7 +40,7 @@ COURSE_OPTIONS = [
     },
     {
         "id": "2",
-        "local": "BANGU",
+        "local": "QUALIFICA BANGU - BANGU",
         "curso": "AUXILIAR ADMINISTRATIVO",
         "turma": "TURMA AUXILIAR ADMINISTRATIVO 01",
         "dias_aula": "Segunda, Terça, Quinta",
@@ -51,7 +51,7 @@ COURSE_OPTIONS = [
     },
     {
         "id": "3",
-        "local": "JACAREPAGUÁ",
+        "local": "CENTRAL DO TRABALHADOR - JACAREPAGUÁ",
         "curso": "AUXILIAR DE COZINHA",
         "turma": "TURMA AUXILIAR DE COZINHA 01",
         "dias_aula": "Segunda, Quarta",
@@ -62,7 +62,7 @@ COURSE_OPTIONS = [
     },
     {
         "id": "4",
-        "local": "JACAREPAGUÁ",
+        "local": "CENTRAL DO TRABALHADOR - JACAREPAGUÁ",
         "curso": "CUIDADOR DE IDOSOS",
         "turma": "TURMA CUIDADOR DE IDOSOS 01",
         "dias_aula": "Segunda, Quarta",
@@ -73,7 +73,7 @@ COURSE_OPTIONS = [
     },
     {
         "id": "5",
-        "local": "JACAREPAGUÁ",
+        "local": "CENTRAL DO TRABALHADOR - JACAREPAGUÁ",
         "curso": "RECEPCIONISTA DE EXCELÊNCIA",
         "turma": "TURMA RECEPCIONISTA DE EXCELÊNCIA 02",
         "dias_aula": "Sábado",
@@ -84,7 +84,7 @@ COURSE_OPTIONS = [
     },
     {
         "id": "6",
-        "local": "SANTA CRUZ",
+        "local": "POLO SANDRA MARQUES - SANTA CRUZ",
         "curso": "CONFEITARIA SIMPLES",
         "turma": "TURMA CONFEITARIA SIMPLES 01",
         "dias_aula": "Sábado",
@@ -95,7 +95,7 @@ COURSE_OPTIONS = [
     },
     {
         "id": "7",
-        "local": "COSMOS",
+        "local": "POLO ALYNE CANAVRAVA - COSMOS",
         "curso": "ÉLETRICA RESIDENCIAL PARA INICIANTES",
         "turma": "TURMA ÉLETRICA RESIDENCIAL PARA INICIANTES 02",
         "dias_aula": "Sábado",
