@@ -108,11 +108,12 @@ COURSE_OPTIONS = [
 
 COURSE_OPTIONS_BY_ID = {option["id"]: option for option in COURSE_OPTIONS}
 COURSE_INFO = COURSE_OPTIONS[0]
+PUBLIC_HOME_URL = "https://educatech-conectando-talentos.onrender.com"
 
 
 def build_whatsapp_share_url(home_url):
     message = (
-        "Acabei de me inscrever em uma oportunidade de qualificacao profissional. "
+        "Acabei de me inscrever no projeto EDUCATECH. "
         "Confira aqui: "
         f"{home_url}"
     )
@@ -2338,12 +2339,10 @@ def confirmacao():
     if not protocolo:
         return redirect(url_for("home"))
 
-    home_url = "https://educatech-criacao-de-marcas-e-logomarcas.onrender.com"
-
     return render_template_string(
         TEMPLATE_CONFIRMACAO,
         protocolo=protocolo,
-        whatsapp_share_url=build_whatsapp_share_url(home_url),
+        whatsapp_share_url=build_whatsapp_share_url(PUBLIC_HOME_URL),
     )
 
 
