@@ -108,7 +108,7 @@ COURSE_OPTIONS = [
 
 COURSE_OPTIONS_BY_ID = {option["id"]: option for option in COURSE_OPTIONS}
 COURSE_INFO = COURSE_OPTIONS[0]
-PUBLIC_HOME_URL = "https://qualificatech-conectando-talentos.onrender.com"
+PUBLIC_HOME_URL = "https://educatech-conectando-talentos.onrender.com"
 
 
 def build_whatsapp_share_url(home_url):
