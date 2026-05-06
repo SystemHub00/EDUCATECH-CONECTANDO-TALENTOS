@@ -108,12 +108,12 @@ COURSE_OPTIONS = [
 
 COURSE_OPTIONS_BY_ID = {option["id"]: option for option in COURSE_OPTIONS}
 COURSE_INFO = COURSE_OPTIONS[0]
-PUBLIC_HOME_URL = "https://educatech-conectando-talentos.onrender.com"
+PUBLIC_HOME_URL = "https://qualificatech-conectando-talentos.onrender.com"
 
 
 def build_whatsapp_share_url(home_url):
     message = (
-        "Acabei de me inscrever no projeto EDUCATECH. "
+        "Acabei de me inscrever no projeto QUALIFICATECH. "
         "Confira aqui: "
         f"{home_url}"
     )
@@ -140,7 +140,7 @@ TEMPLATE_WIZARD = r'''
     <meta charset="UTF-8">
     <!-- IMPORTANTE! viewport responsivo para celular -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>EDUCATECH</title>
+    <title>QUALIFICATECH</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/assistant.css">
     <link href="https://fonts.googleapis.com/css2?family=Wise:wght@400;700;900&display=swap" rel="stylesheet">
@@ -990,7 +990,7 @@ TEMPLATE_WIZARD = r'''
                 <section class="wizard-panel" data-step="index">
                     <div class="hero-grid">
                         <div class="hero-card">
-                            <span class="hero-pill">PROJETO: EDUCATECH</span>
+                            <span class="hero-pill">PROJETO: QUALIFICATECH</span>
                                 <h1 class="hero-title">CONECTANDO TALENTOS, TRANSFORMANDO O AMANHÃ!</h1>
                             <p class="hero-subtitle">
                                 Capacitação Profissional com Ênfase em Novas Tecnologias para Ingresso e Permanência no Mercado de Trabalho!<br>
@@ -1756,7 +1756,7 @@ TEMPLATE_CONFIRMACAO = r'''
     <meta charset="UTF-8">
     <!-- IMPORTANTE! viewport responsivo para celular -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>EDUCATECH</title>
+    <title>QUALIFICATECH</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/assistant.css">
     <link href="https://fonts.googleapis.com/css2?family=Wise:wght@400;700;900&display=swap" rel="stylesheet">
